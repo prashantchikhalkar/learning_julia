@@ -33,3 +33,11 @@ search: ⊻ ⊋ ⊊ ⊉ ⊈ ⊇ ⊆ ≥ ≤ ≢ ≡ ≠ ≉ ≈ ∪ ∩ ∛ √ 
 julia>
 
 -> Variables in Julia : https://docs.julialang.org/en/v1/manual/variables/
+  -> Styling : https://docs.julialang.org/en/v1/manual/style-guide/#Style-Guide-1
+    While Julia imposes few restrictions on valid names, it has become useful to adopt the following conventions:
+
+Names of variables are in lower case.
+Word separation can be indicated by underscores ('_'), but use of underscores is discouraged unless the name would be hard to read otherwise.
+Names of Types and Modules begin with a capital letter and word separation is shown with upper camel case instead of underscores.
+Names of functions and macros are in lower case, without underscores.
+Functions that write to their arguments have names that end in !. These are sometimes called "mutating" or "in-place" functions because they are intended to produce changes in their arguments after the function is called, not just return a value.
